@@ -1,0 +1,91 @@
+body {
+    background-color: ghostwhite;
+    margin: 0;
+}
+
+#main_table {
+    height: 100%;
+    border-spacing: 0;
+}
+
+#header {
+    background: gainsboro;
+    height: 50px;
+    min-width: 862px;
+    font: 24px "Trebuchet MS", Tahoma, Arial, sans-serif;
+    border-bottom: 4px solid limegreen;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 80px;
+}
+
+#main_link {
+    color: greenyellow;
+    text-decoration: none;
+    text-shadow: 0 0 6px darkgreen, 0 0 2px black;
+}
+
+#post_table {
+    border-spacing: 0;
+    padding: 10px;
+    border-bottom: 2px solid limegreen;
+    border-radius: 15px;
+}
+
+#post_text {
+    border: 2px solid limegreen;
+    border-radius: 15px;
+    font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+    vertical-align: top;
+    min-width: 600px;
+    padding-left: 10px;
+}
+
+#image {
+    border-radius: 15px;
+    height: 310px;
+    width: 230px;
+}
+
+#input {
+    border-top: 2px solid limegreen;
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 840px;
+}
+
+.text_area1 {
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.text_area2 {
+    width: 400px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+#comments {
+    height: auto;
+    padding: 10px;
+}
+
+.b_comment {
+  cursor: pointer;
+  text-align: center;
+  color: limegreen;
+  border: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: 0 0;
+}
+
+.comment {
+    padding-left: 10px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+}
